@@ -30,7 +30,7 @@ def merge_csv_files(csv_files, output_file):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('/templates/index.html')
 
 @app.route('/merge_csv', methods=['POST'])
 def merge_csv():
